@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+   
+}
+
+@font-face {
+    font-family:AmazonEmber-RG ;
+    src: url(./AmazonEmber_Rg.ttf);
+}
+body {
+    background-color: #b6d2df;
+    font-family: AmazonEmber-RG;
+}
+.main{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+    
+}
+.photo{
+    display: flex;
+    
+}
+.money{
+    display: flex;
+    width: 115px;
+    height: 29px;
+}
+.money2{
+    display: flex;
+    border-right: 1px solid white;
+    width: 115px;
+}
+.return2{
+    display: flex;
+}
+h2,h4,h3{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+h5{
+    margin-top: 0px;
+    margin-left: 8px;
+    font-size: 12px;
+    padding-top: 1px;
+    margin-right: 18px
+}
+.photo{
+    display: flex;
+}
+.text
+{
+    width:50%;
+    display:flex;
+    
+}
+.text1
+{
+    width:100%;
+    justify-content:space-around;
+}
+.hello {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: inline-block;
+}
+
+.all {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(19,25,33,255);
+    color: white;
+}
+
+.nav {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(34,47,62,255);
+    color: white;
+    /* border: 1px solid white; */
+}
+
+#srh {
+
+    border: 1px solid black;
+
+    font-size: 36px;
+    margin-left: -22px;
+    background-color: #FEBD68;
+    color: black;
+}
+
+#search {
+    margin-left: -22px;
+
+    padding: 11px 1px 10px 0;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#search:hover{
+    border: 1px solid orangered;
+}
+
+#slc {
+    margin-left: -20px;
+    margin-bottom: 8px;
+}
+
+li {
+    list-style: none;
+    padding: 4px 4px;
+    border: 1px solid transparent;
+
+}
+
+.nav li:hover {
+    background-color: #232F3E;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.video1 {
+    height: 418px;
+    width: 317px;
+    /* border: 1px solid black; */
+    margin: 10px;
+
+   
+
+
+}
+
+#img {
+
+    margin: 5px;
+    width: 299px;
+    height: 276px;
+    object-fit: cover;
+}
+
+.link {
+    margin: 10px;
+}
+
+.big {
+    width: 100%;
+    display: flex;
+    
+    height: 430px;
+   
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+}
+
+.video1 {
+    height: 418px;
+    width: 24%;
+    /* border: 1px solid black; */
+    margin: 10px;
+    background-color: white;
+    color: black;
+
+    
+}
+
+.video3 {
+    height: 418px;
+    width: 23%;
+    /* border: 1px solid black; */
+    margin: 10px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+
+   
+}
+
+.photo1 {
+    width: 141px;
+    height: 140px;
+    /* border: 1px solid black; */
+    display: inline block;
+}
+
+.video2 {
+    height: 418px;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+
+.video4 {
+    height: 418px;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+
+.ph1 {
+    width: 46%;
+    height: 130px;
+    /* ind */
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px;
+}
+
+/* .ph2 {
+    width: 46%;
+    height: 130px;
+    border: 1px solid red;
+    display: inline-block;
+    margin-left: 9px;
+    font-size: 11px;
+}
+
+.ph3 {
+    width: 46%;
+    height: 102px;
+    border: 1px solid red;
+    display: inline-block;
+    margin-top: 61px;
+}
+
+.ph4 {
+    width: 46%;
+    height: 102px;
+    border: 1px solid red;
+    display: inline-block;
+    margin-left: 9px;
+} */
+
+.head {
+    margin-top: 24px;
+    margin-left: 10px;
+}
+
+.laptop {
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid blue; */
+}
+
+#img2 {
+    height: 245px;
+    width: 100%;
+    margin-top: 2px;
+    
+}
+
+.video6{
+    height: 418px;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+#slc{
+    border: 1px solid transparent;
+}
+#slc:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+.helo{
+    border: 1px solid transparent;
+}
+.helo:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+.return:hover{
+    border: 1px solid white;
+    cursor: pointer;
+   
+}
+#ama{
+    border: 1px solid transparent;
+}
+#ama:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.video5{
+      width: 100%;
+      display: flex;
+      height: 430px;
+      /* border: 1px solid black; */
+      background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+}
+.drop{
+    height: 38px;
+}
+#ind{
+    height:17px;
+    width: 18px;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a{
+    color: green;
+}
+.return{
+    border: 1px solid transparent;
+}
+#cart{
+    border: 1px solid transparent;
+}
+#cart:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+.video10{
+    
+    height: 418px;
+    width: 23%;
+    /* border: 1px solid black; */
+    margin: 10px;
+    background-color: white;
+    color: black;
+    
+}
+.eng{
+    margin-left: -20px;
+}
+#img3{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+     
+}
